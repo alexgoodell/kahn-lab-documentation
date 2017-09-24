@@ -13,11 +13,11 @@ Documentation is vital -- it allows others to understand your code, and allows y
 
 The Kahn lab has no requirement for external documentation. It is suggested that the primary mechanics of your software are described within your scientific manuscript and/or technical appendix. An additional document that gives a more technical explanation can be helpful, but it not required. 
 
-## Internal documention
+## Internal documentation
 
 At some larger software companies, internal documentation can be kept to a minimum. Often, the tasks outside of academia are straight-forward: display the price, get user passwords, etc. In addition, at most companies, the entire team (including the supervisor) is proficient in the given language. _This is not the case in academic projects._ The Kahn lab has many complex projects in a variety of programming languages. Key team members with important insights are often not proficient in the chosen language. For this reason, internal documentation is vital. The following sections discuss the requirements of internal documentation in the Kahn lab.
 
-### Guidlines
+### Guidelines
 
 - Variable names should be in English. Avoid excess jargon and/or abbreviations in your variable names. Code does not run faster with shorter variable names! It should be instantly apparent what your variable is by reading its name. If all the variables are well-named, the need to comment can be reduced significantly. 
 - Use consistent naming standards. You should use either underscored variables names, ie "user_password" or camel case, ie "userPassword." Remain consistent. 
@@ -61,7 +61,7 @@ tb_N_N_T = createNewState(hiv=False,treatment=False)
 
 The preferred method for storing code in the Kahn lab is Github. Git is a free, version-control system. Github is a website which allows you to store Git repositories for free. Git is an essential tool. Used correctly, it allows programmers to save the state of their code at any time, and "roll-back" to previous versions of code if errors are introduced. It allows collaboration across teams, where individuals can work on seperate parts of code and merge their changes together, with a clear, transparent history. 
 
-Currently, use of Git and Github are recommended, but not required. For projects with signficant collaboration requirements, use of Git/Github or a similar version control system is required. 
+Currently, use of Git and Github are recommended, but not required. For projects with significant collaboration requirements, use of Git/Github or a similar version control system is required. 
 
 ## Code reviews 
 
